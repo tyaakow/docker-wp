@@ -1,2 +1,2 @@
-docker - compose run wp core config--dbname = wordpress--dbuser = wordpress--dbpass = wordpress--dbhost = mysql--dbprefix = wp_
-docker - compose run wp core install--url = "http://localhost:8080"-- --admin_user = "wp"--admin_password = "wp"--admin_email = "email@domain.com"--title = "SuperBlog"
+docker-compose run wp core config --dbname=wordpress --dbuser=wordpress --dbpass=wordpress --dbhost=mysql --dbprefix=wp_
+docker-compose run wp core install --url="http://localhost:80" --admin_user="wp" --admin_password="wp" --admin_email="email@domain.com" --title="SuperBlog"
